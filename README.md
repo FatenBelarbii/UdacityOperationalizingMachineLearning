@@ -12,11 +12,37 @@ We follow the below steps:
 
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 ![GitHub Logo](/Screenshots/Diagramme.PNG)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+### Step 1: Authentication
+
+### Step 2: Automated ML Experiment
+![GitHub Logo](/Screenshots/step2-1.PNG)
+![GitHub Logo](/Screenshots/step2-2.PNG)
+![GitHub Logo](/Screenshots/Step2-3.PNG)
+![GitHub Logo](/Screenshots/Step2-4.PNG)
+![GitHub Logo](/Screenshots/Step2-5.PNG)
+![GitHub Logo](/Screenshots/Step2-6.PNG)
+![GitHub Logo](/Screenshots/Step2-7.PNG)
+![GitHub Logo](/Screenshots/Step2-8.PNG)
+![GitHub Logo](/Screenshots/Step2-9.PNG)
+![GitHub Logo](/Screenshots/Step2-10.PNG)
+![GitHub Logo](/Screenshots/Step2-11.PNG)
+![GitHub Logo](/Screenshots/Step2-12.PNG)
+![GitHub Logo](/Screenshots/Step2-13.PNG)
+![GitHub Logo](/Screenshots/Step2-14.PNG)
+![GitHub Logo](/Screenshots/Step2-15.PNG)
+### Step 3: Deploy the Best Model
+### Step 4: Enable Application Insights
+### Step 5: Swagger Documentation
+### Step 6: Consume Model Endpoints
+### Step 7: Create, Publish and Consume a Pipeline
+###
+###
+###
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
