@@ -78,7 +78,5 @@ We used the lab Udacity provided to us, so we skipped this step since we are not
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+Link youtube: https://www.youtube.com/watch?v=wePBHiB-Wvs
+Link youtube: https://www.youtube.com/watch?v=MXINKAYeyRs
