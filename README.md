@@ -31,19 +31,31 @@ And configured the new compute cluster to be used
 We chose the Standard_DS12-v2, 1 as the minimum number of nodes and 6 as the maximum number
 ![GitHub Logo](/Screenshots/Step2-5.PNG)
 ![GitHub Logo](/Screenshots/Step2-6.PNG)
+Then, we had to configure the classification parameters for the experiment
 ![GitHub Logo](/Screenshots/Step2-7.PNG)
+We chose Accuracy as primary metric, 
 ![GitHub Logo](/Screenshots/Step2-8.PNG)
+set the exit criterion, reducing the defalut (3 hours) to 1 and also reduced the Concurrency to 5.
 ![GitHub Logo](/Screenshots/Step2-9.PNG)
+We saved and ran the experiment.
 ![GitHub Logo](/Screenshots/Step2-10.PNG)
+This screenshot shows the experiment running.
 ![GitHub Logo](/Screenshots/Step2-11.PNG)
+This screenshot shows the bank-marketting dataset in the Registred Datasets tab.
 ![GitHub Logo](/Screenshots/Step2-12.PNG)
+This screenshot shows that the experiment completed running.
 ![GitHub Logo](/Screenshots/Step2-13.PNG)
+These are the models with the best accuracy.
 ![GitHub Logo](/Screenshots/Step2-14.PNG)
+And these are all the details of our run.
 ![GitHub Logo](/Screenshots/Step2-15.PNG)
 
 ### Step 3: Deploy the Best Model
+We selected the best model (The first one with better accuracy)
 ![GitHub Logo](/Screenshots/step3-1.PNG)
+And then we deployed it making sure we chose ACI: Azure Container Instance as compute type.
 ![GitHub Logo](/Screenshots/Step3-2.PNG)
+This screenshot confirms that in the Step1 run, the model that we chose is the best model.
 ![GitHub Logo](/Screenshots/Step3-3.PNG)
 
 ### Step 4: Enable Application Insights
