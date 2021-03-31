@@ -59,35 +59,57 @@ This screenshot confirms that in the Step1 run, the model that we chose is the b
 ![GitHub Logo](/Screenshots/Step3-3.PNG)
 
 ### Step 4: Enable Application Insights
+This screenshot shows that az is installed.
 ![GitHub Logo](/Screenshots/step4-1.PNG)
+We downloaded our config file.
 ![GitHub Logo](/Screenshots/Step4-2.PNG)
+We checked that application insights is not enabled for our endpoint,
 ![GitHub Logo](/Screenshots/Step4-3.PNG)
-![GitHub Logo](/Screenshots/Step4-4.PNG)
-![GitHub Logo](/Screenshots/Step4-5.PNG)
+The we wrote the code to enable it and ran it.
 ![GitHub Logo](/Screenshots/Step4-6.PNG)
+After that, we ran the logs.py file
+![GitHub Logo](/Screenshots/Step4-5.PNG)
+Here, we can see the content of the script
+![GitHub Logo](/Screenshots/Step4-4.PNG)
+Checking again our endpoint, application insights is enabled 
 ![GitHub Logo](/Screenshots/Step4-7.PNG)
+And here is the result of running logs.py
 ![GitHub Logo](/Screenshots/Step4-8.PNG)
 
 ### Step 5: Swagger Documentation
+We can download the swagger.json file by clicking the Swagger URI link:
 ![GitHub Logo](/Screenshots/Step5-1.PNG)
+Here's a look at the file
 ![GitHub Logo](/Screenshots/Step5-2.PNG)
+We ran the swagger.sh file
 ![GitHub Logo](/Screenshots/Step5-3.PNG)
+And the we can use it by running the serve.py file
 ![GitHub Logo](/Screenshots/Step5-4.PNG)
+Swagger is running on our localhost
 ![GitHub Logo](/Screenshots/Step5-5.PNG)
 
 ### Step 6: Consume Model Endpoints
+Here, we can find our REST endpoint and the key that were generated after deployment.
 ![GitHub Logo](/Screenshots/Step6-1.PNG)
+We add them to the endpoint.py file 
 ![GitHub Logo](/Screenshots/Step6-2.PNG)
+and run it and have the expected result
 ![GitHub Logo](/Screenshots/Step6-3.PNG)
 
 ### Step 7: Create, Publish and Consume a Pipeline
+We uploaded config.json and the aml-pipelines-with-automated-machine-learning-step.ipynb jupyter notebook and updated it to match our environment then ran through the cells.
+In the pipelines section, we can verify that our pipeline has been created and that it is running.
 ![GitHub Logo](/Screenshots/Step9-1.PNG)
+The run is complete here.
 ![GitHub Logo](/Screenshots/Step9-2.PNG)
 ![GitHub Logo](/Screenshots/Step9-3.PNG)
 ![GitHub Logo](/Screenshots/Step9-4.PNG)
+This is the bankmarketting dataset with the AutoML module and the one the pipeline added and is using
 ![GitHub Logo](/Screenshots/Step9-5.PNG)
 ![GitHub Logo](/Screenshots/Step9-6.PNG)
+The published pipeline overview shows a REST endpoint and a status of active
 ![GitHub Logo](/Screenshots/Step9-7.PNG)
+The Use RunDetails Widget in the jupyter notebook shows the step runs
 ![GitHub Logo](/Screenshots/Step9-8.PNG)
 ![GitHub Logo](/Screenshots/Step9-9.PNG)
 
