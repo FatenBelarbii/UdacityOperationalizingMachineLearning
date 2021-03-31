@@ -80,3 +80,11 @@ We used the lab Udacity provided to us, so we skipped this step since we are not
 ## Screen Recording
 Link youtube: https://www.youtube.com/watch?v=wePBHiB-Wvs
 Link youtube: https://www.youtube.com/watch?v=MXINKAYeyRs
+
+## Future improvements:
+1- Manually clean the dataset before performing AutoML run and pipeline creation.
+2- Make changes while training the the models using AutoML(For example, Include deep learning models or increase the time for exit criterion while training and see if it will give a better accuracy). Deploy the model only after being sure that the best model obtained is actually the "best".
+3- Trying different metrics like the mean_squared_error to check how the prediction deviated from the actual values to have a better idea of the performance of the model.
+4- Check for overfitting or underfitting and implement ways to avoid them.
+5- Add an interface for consuming the API.
+6- Add more automation.
