@@ -20,10 +20,15 @@ We follow the below steps:
 We used the lab Udacity provided to us, so we skipped this step since we are not authorized to create a security principal.
 
 ### Step 2: Automated ML Experiment
+First, we created an new Automated ML run:
 ![GitHub Logo](/Screenshots/step2-1.PNG)
+Then Bank-marketing dataset was already available in registered datasets so all we had to do is to select it.
 ![GitHub Logo](/Screenshots/step2-2.PNG)
+We created and named a new ML experiment
 ![GitHub Logo](/Screenshots/Step2-3.PNG)
+And configured the new compute cluster to be used
 ![GitHub Logo](/Screenshots/Step2-4.PNG)
+We chose the Standard_DS12-v2, 1 as the minimum number of nodes and 6 as the maximum number
 ![GitHub Logo](/Screenshots/Step2-5.PNG)
 ![GitHub Logo](/Screenshots/Step2-6.PNG)
 ![GitHub Logo](/Screenshots/Step2-7.PNG)
